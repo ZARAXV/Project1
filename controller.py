@@ -16,8 +16,8 @@ class Controller(QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs) -> None:
         """
         Function will set up the interface
-        :param args:
-        :param kwargs:
+        :param args: picks up the args/arguments from whatever user may input
+        :param kwargs: picks up the kwargs/key arguments from whatever user may input
         """
         super().__init__(*args, **kwargs)
         self.setupUi(self)
